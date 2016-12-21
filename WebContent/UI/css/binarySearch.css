@@ -1,0 +1,35 @@
+#firstPass{
+    vertical-align: 30px;
+    margin-left: 50px;
+}
+
+#pseudo{
+    width: 500px;
+    height: 350px;
+    padding: 10px 0px 20px 100px ;
+}
+
+#gif{
+    padding-left: 100px;
+    width: 600px;  
+    height: 300px;  
+}
+
+#example{
+    width: 500px;
+    border: 3px solid black;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align: 100px;
+}
+
+#search,#lSearch{
+    width: 52px;
+}
+
+#array,#lArray{
+    margin : 5px;
+    width: 350px;  
+}

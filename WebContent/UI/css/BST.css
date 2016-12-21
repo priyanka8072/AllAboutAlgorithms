@@ -1,0 +1,38 @@
+#delete{
+    width: 400px;
+    height: 255px;
+    margin: 2px;
+}
+#insert{
+    width: 400px;
+    margin: 2px;
+}
+#traverse{
+    width: 500px; 
+    height: 255px;
+    vertical-align: 1px;
+    margin: 2px;
+}
+.ins-del{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+}
+#traverse_pseudo,#search{
+    width: 500px;
+}
+.pseudo{
+    height: 400px;
+    margin: 10px 2px 2px 2px;
+    border: 1px solid black;
+    width: 400px;
+    display: inline-block;
+}
+#video{
+    margin: 10px 2px 2px 2px; 
+}
+#deletion{
+	width: 430px;
+    height: 255px;
+    margin: 4px;
+}

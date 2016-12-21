@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Heap Sort</title>
+<link rel="stylesheet" href="../css/heapSort.css">
+<link rel="stylesheet" href="../css/main.css">
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script type="application/javascript" src="../js/heapSort.js"></script>
+</head>
+<body>
+	<h1 id="header">Heap Sort</h1>
+	<nav class="navbar">
+		<a href="../../index.html" id="selected">Home</a><a
+			href="bubbleSort.html">Bubble Sort</a> <a href="selectionSort.html">Selection
+			Sort</a> <a href="insertionSort.html">Insertion Sort</a> <a
+			href="countSort.html">Counting Sort</a> <a href="quickSort.html">Quick
+			Sort</a> <a href="mergeSort.html">Merge Sort</a> <a href="heapSort.html">Heap
+			Sort</a><a href="linearSearch.html">Linear Search</a> <a
+			href="binarySearch.html">Binary Search</a> <a href="BST.html">Binary
+			Search Tree</a><a href="avlTree.html">AVL Tree</a>
+	</nav>
+	<div class="para">
+		Heap sort is a comparison based sorting technique based on Binary Heap
+		data structure. Heap Sort is one of the best sorting methods being
+		in-place and with no quadratic worst-case scenarios. Heap sort
+		algorithm is divided into two basic parts :
+		<ul>
+			<li>Creating a Heap of the unsorted list.</li>
+			<li>Then a sorted array is created by repeatedly removing the
+				largest/smallest element from the heap, and inserting it into the
+				array. The heap is reconstructed after each removal.</li>
+		</ul>
+	</div>
+	<img src="../img/heap.png" alt="Heap Sort" id="firstPass">
+	<img src="../img/heapSortPseudo.png" alt="Pseudo code of Heap sort"
+		id="pseudo">
+	<div id="example" class="example">
+		<h3>Try it!!!</h3>
+		<input type="text" id="exmpl" placeholder="Numbers separated by comma">
+		<br />
+		<p id="result"></p>
+	</div>
+	<img src="../gif/heapsort.gif" alt="Animation of Heap sort" id="gif"
+		class="example">
+	<footer>
+		<div>Priyanka Sharma</div>
+		<div>U01378150</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Bubble Sort</title>
+<link rel="stylesheet" href="../css/bubbleSort.css">
+<link rel="stylesheet" href="../css/main.css">
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script type="application/javascript" src="../js/bubble.js"></script>
+</head>
+<body>
+	<h1 id="header">Bubble Sort</h1>
+	<nav class="navbar">
+		<a href="../../index.html" id="selected">Home</a><a
+			href="bubbleSort.html">Bubble Sort</a> <a href="selectionSort.html">Selection
+			Sort</a> <a href="insertionSort.html">Insertion Sort</a> <a
+			href="countSort.html">Counting Sort</a> <a href="quickSort.html">Quick
+			Sort</a> <a href="mergeSort.html">Merge Sort</a> <a href="heapSort.html">Heap
+			Sort</a><a href="linearSearch.html">Linear Search</a> <a
+			href="binarySearch.html">Binary Search</a> <a href="BST.html">Binary
+			Search Tree</a><a href="avlTree.html">AVL Tree</a>
+	</nav>
+	<p>
+		Bubble sort, sometimes referred to as sinking sort, is a simple
+		sorting algorithm that repeatedly steps through the list to be sorted,
+		compares each pair of adjacent items and swaps them if they are in the
+		wrong order. The pass through the list is repeated until no swaps are
+		needed, which indicates that the list is sorted. The algorithm, which
+		is a comparison sort, is named for the way smaller or larger elements
+		"bubble" to the top of the list. Although the algorithm is simple, it
+		is too slow and impractical for most problems even when compared to
+		insertion sort.[1] It can be practical if the input is usually in
+		sorted order but may occasionally have some out-of-order elements
+		nearly in position.Bubble sort has worst-case and average complexity
+		both О(n<sup>2</sup>).
+	</p>
+	<img src="../img/bubblepass.png" alt="Bubble Sort First Pass"
+		id="firstPass">
+	<img src="../img/pesudo.png" alt="Pseudo code of bubble sort"
+		id="pseudo">
+	<div id="list">
+		<h3 id="ani">Animation Example</h3>
+		<ul class="blocks" id="blocks">
+			<li class="yellow">23</li>
+			<li class="white">07</li>
+			<li class="red">10</li>
+			<li class="pink">5</li>
+			<li class="green">9</li>
+			<li class="brown">13</li>
+			<li class="blue">2</li>
+			<li class="black">19</li>
+		</ul>
+		<div class="container">
+			<input type="button" id="reset" value="Reset" /> <input
+				type="button" id="run" value="Start" />
+			<div id="comparisons">Comparisons: 0</div>
+			<div id="swaps">Swaps: 0</div>
+			<div id="offset">Offset: 0</div>
+		</div>
+	</div>
+	<div id="example">
+		<h3>Try it!!!</h3>
+		<input type="text" id="exmpl" placeholder="Numbers separated by comma">
+		<br />
+		<p id="result">Result is:</p>
+	</div>
+	<footer>
+		<div>Priyanka Sharma</div>
+		<div>U01378150</div>
+	</footer>
+</body>
+</html>

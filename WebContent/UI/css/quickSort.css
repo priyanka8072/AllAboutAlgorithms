@@ -1,0 +1,26 @@
+#firstPass{
+    width: 500px;
+    height: 350px;
+    vertical-align: 20px;
+}
+
+#pseudo{
+    width: 400px;
+    height: 400px;
+    padding: 0px 100px 0px 80px;
+}
+
+#gif{
+    width: 600px;  
+    height: 200px;  
+}
+
+#example{
+    width: 500px;
+    border: 3px solid black;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align: 80px;
+}

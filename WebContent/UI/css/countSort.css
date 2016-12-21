@@ -1,0 +1,32 @@
+#pseudo{
+    width: 500px;
+    height: 410px;
+    padding: 0px 0px 0px 60px;
+    vertical-align: top;
+}
+
+#pesudo, #side{
+      display:inline-block;
+}
+
+#side{
+    width: 40%;
+    vertical-align: 30px;
+}
+
+#gif{
+    width: 600px;  
+    height: 300px; 
+    margin-left: 100px;
+}
+
+#example{
+    width: 600px;
+    border: 3px solid black;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align: 80px;
+}
+

@@ -1,0 +1,46 @@
+#run,#reset {margin-top: 10px;position: relative;}
+.container {padding:10px 0px 10px 0px;width: 110px;margin:inherit;text-align: center;position: relative; left: 250px;}
+.blocks {list-style-type: none;}
+.blocks li {float:left;margin-right:10px;padding:20px;font-weight:bold;border-radius: 5px;border:solid 1px #eee;}
+.blocks li.black {background-color:black;color:white;}
+.blocks li.brown {background-color:brown;}
+.blocks li.green {background-color:green;}
+.blocks li.red {background-color:red;}
+.blocks li.yellow {background-color:yellow;}
+.blocks li.pink {background-color:pink;}
+.blocks li.blue {background-color:blue;}
+.blocks li.selected {border:2px solid black;}
+
+#list, #example{
+      width:50%;
+      display:inline-block;
+}
+
+#ani{
+    text-align: center;
+    text-underline-position: below; 
+}
+
+#example{
+    width: 400px;
+    border: 3px solid black;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align:50px;
+}
+
+#firstPass{
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+#pseudo{
+    width: 600px;
+    height: 400px;
+    padding: 0px 0px 20px 100px ;
+}
+
+
+

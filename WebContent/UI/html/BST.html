@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Binary Search Tree</title>
+<link rel="stylesheet" href="../css/BST.css">
+<link rel="stylesheet" href="../css/main.css">
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script type="application/javascript" src="../js/insertionSort.js"></script>
+</head>
+<body>
+	<h1 id="header">Binary Search Tree</h1>
+	<nav class="navbar">
+		<a href="../../index.html" id="selected">Home</a><a
+			href="bubbleSort.html">Bubble Sort</a> <a href="selectionSort.html">Selection
+			Sort</a> <a href="insertionSort.html">Insertion Sort</a> <a
+			href="countSort.html">Counting Sort</a> <a href="quickSort.html">Quick
+			Sort</a> <a href="mergeSort.html">Merge Sort</a> <a href="heapSort.html">Heap
+			Sort</a><a href="linearSearch.html">Linear Search</a> <a
+			href="binarySearch.html">Binary Search</a> <a href="BST.html">Binary
+			Search Tree</a><a href="avlTree.html">AVL Tree</a>
+	</nav>
+	<div class="para">
+		A binary search tree or a BST is a collection of nodes arranged in a
+		way where they maintain BST properties. Each node has a key and an
+		associated value. While searching, the desired key is compared to the
+		keys in BST and if found, the associated value is retrieved. It is a
+		binary tree in which data with lesser values are stored in left nodes
+		and data with greater values is stored in right nodes. This
+		characteristics provide for very efficient searches and holds for both
+		numeric data and non-numeric data.
+		<ul>
+			<li>search --- in the worst case the search key is not found,
+				but would be located next to the deepest leaf in the tree. Each step
+				takes only a constant amount of work so the algorithm is O(h), where
+				h is the height of the tree.</li>
+			<li>insert --- in the worst case the insertion takes place at
+				deepest leaf in the tree --- the algorithm is also O(h).</li>
+			<li>delete --- the worst case is either the same as for search
+				or occurs when the the delete key is found, but that node has two
+				children and either the predecessor or successor of that key is
+				located at the deepest leaf. In either case, the amount of work is
+				bounded by O(h).</li>
+		</ul>
+	</div>
+	<p></p>
+
+	<div class="ins-del">
+		<h3>Insertion in BST</h3>
+		<img src="../img/BST_insert.jpg" alt="Insertion in BST" id="insert">
+	</div>
+	<div class="ins-del">
+		<h3>Deletion in BST</h3>
+		<img src="../img/BST_deletion.jpg" alt="Deletion in BST" id="delete">
+	</div>
+	<div class="ins-del">
+		<h3>Traversal in BST</h3>
+		<img src="../img/BST_traversal.png" alt="Traversal in BST"
+			id="traverse">
+	</div>
+	<img src="../img/BST_insert_pseudo.jpg" alt="Insertion Pseudo BST"
+		id="insert_pseudo" class="pseudo">
+	<img src="../img/BST_deletion_pesudo.jpg" alt="Deletion Pseudo BST"
+		id="delete_pseudo" class="pseudo">
+	<img src="../img/BST_trav_pseudo.jpg" alt="Traversal Pseudo BST"
+		id="traverse_pseudo" class="pseudo">
+
+	<img src="../gif/binary-search-tree-insertion-animation.gif"
+		alt="Animation of BST Insertion" class="pseudo">
+	<img src="../gif/binary-search-tree-sorted-array-animation.gif"
+		alt="Animation of BST Insertion" class="pseudo">
+	<iframe width="500" height="403"
+		src="https://www.youtube.com/embed/c1zKNiABiHk" frameborder="0"
+		allowfullscreen id="video"></iframe>
+	<footer>
+		<div>Priyanka Sharma</div>
+		<div>U01378150</div>
+	</footer>
+</body>
+</html>
